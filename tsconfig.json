@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "lib": ["dom", "es2015", "es2017"],
+    "baseUrl": "src/",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "noResolve": false,
+    "downlevelIteration": true
+  },
+  "include": ["./src/**/*"]
+}
